@@ -7,9 +7,9 @@
 
 > A TypeScript package starter fully armed with all the required buzzwards!
 
-# Table of Content
+# Table of Contents
 
-- [Table of Content](#table-of-content)
+- [Table of Contents](#table-of-contents)
   - [CI/CD](#cicd)
   - [Linting](#linting)
   - [Git](#git)
