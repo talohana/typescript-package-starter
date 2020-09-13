@@ -20,6 +20,7 @@
 
 - [Travic CI](https://travis-ci.com/)
 - [Codecov](https://codecov.io/)
+- [semantic-release](https://github.com/semantic-release/semantic-release)
 
 ## Linting
 
