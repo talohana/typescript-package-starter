@@ -15,7 +15,7 @@
     "build:prod": "tsc -p tsconfig.prod.json",
     "copy-files": "cp -t ./dist README.md LICENSE",
     "clean": "rimraf dist",
-    "package": "run-s clean test:ci build:prod copy-files",
+    "package": "run-s clean build:prod copy-files",
     "commit": "git-cz",
     "semantic-release": "semantic-release"
   },
