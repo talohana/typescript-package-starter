@@ -1,4 +1,4 @@
-import { sum } from '@utils';
+import { sum } from '../utils';
 
 describe('sum', () => {
   it('should add two numbers', () => {

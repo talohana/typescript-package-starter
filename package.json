@@ -12,10 +12,9 @@
     "test:watch": "npm run test -- --watch",
     "test:ci": "npm run test -- --runInBand",
     "build": "tsc -p tsconfig.json",
-    "build:prod": "tsc -p tsconfig.prod.json",
     "copy-files": "cp -t ./dist README.md LICENSE",
     "clean": "rimraf dist",
-    "package": "run-s clean build:prod copy-files",
+    "package": "run-s clean build copy-files",
     "commit": "git-cz",
     "semantic-release": "semantic-release"
   },

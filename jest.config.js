@@ -5,7 +5,7 @@ const { compilerOptions } = require('./tsconfig');
 module.exports = {
   globals: {
     'ts-jest': {
-      tsConfig: '<rootDir>/tsconfig.json',
+      tsConfig: '<rootDir>/tsconfig.spec.json',
     },
   },
   transform: {
